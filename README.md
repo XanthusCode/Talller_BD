@@ -530,7 +530,9 @@
     cadena Monitor en el nombre y tienen un precio inferior a 215 €.
 
     ```sql
-    
+    SELECT nombre
+    FROM producto
+    WHERE nombre LIKE '%monitor%' and precio <215; 
     ```
 
     
